@@ -2,8 +2,7 @@ theme: minima
 
 minima:
   skin: dark
+  # does nothing because fuck me i guess
 
-author:
-  name: Captain
-  email: "captain8771pog+gh@gmail.com"
-
+# minima you good?
+author: Captain8771
