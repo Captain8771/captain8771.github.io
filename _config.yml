@@ -1,4 +1,4 @@
-theme: minima@3.0.0.dev
+theme: minima
 
 minima:
   skin: dark
