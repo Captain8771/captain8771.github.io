@@ -1,6 +1,4 @@
-remote-theme: jekyll/minima@3.0.0.dev
-plugins:
-- jekyll-remote-theme
+theme: minima@3.0.0.dev
 
 minima:
   skin: dark
