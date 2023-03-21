@@ -1,3 +1,9 @@
-remote_theme: pages-themes/minima@v0.2.0
-plugins:
-- jekyll-remote-theme
+theme: minima
+minima:
+  skin: dark
+
+author:
+  name: Captain
+  email: "captain8771pog+gh@gmail.com"
+
+  
