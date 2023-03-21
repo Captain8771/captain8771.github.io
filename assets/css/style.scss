@@ -6,6 +6,8 @@
   "minima/initialize";
 
 
-.post-title {
-    display: none; // who's idea was it to display the header twice??
+.post-title, // who's idea was it to display the header twice??
+.page-link // no thanks that looks ugly as shit
+{
+    display: none;
 }
