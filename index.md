@@ -6,4 +6,4 @@ Welcome to my docs site where I document random things completely unrelated to e
 
 | Table of contents |
 |---|
-| [CustomRPC in Vencord: How to](/docs/customrpc) | 
+| Doc: [CustomRPC in Vencord: How to](/docs/customrpc) | 
