@@ -1,4 +1,7 @@
-theme: minima
+remote-theme: jekyll/minima@3.0.0.dev
+plugins:
+- jekyll-remote-theme
+
 minima:
   skin: dark
 
@@ -6,4 +9,3 @@ author:
   name: Captain
   email: "captain8771pog+gh@gmail.com"
 
-  
