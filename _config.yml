@@ -1,8 +1,9 @@
-theme: minima
+remote_theme: jekyll/minima
 
 minima:
   skin: dark
-  # does nothing because fuck me i guess
 
-# minima you good?
-author: Captain8771
+author:
+  name: Captain
+  email: "captain8771pog+gh@gmail.com"
+
