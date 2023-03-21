@@ -1,3 +1,5 @@
+# Home
+
 Welcome to my docs site where I document random things completely unrelated to eachother :>
 
 ## Table Of Contents
