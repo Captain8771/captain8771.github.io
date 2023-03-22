@@ -6,6 +6,29 @@
   "minima/initialize";
 
 
+// catppuccin mode
+// made by my friend
+// ---------
+$dm-brand-color:           #f38ba8 !default;
+$dm-brand-color-light:     #f5c2e7 !default;
+$dm-brand-color-dark:      #eba0ac !default;
+$dm-site-title-color:      #f5c2e7 !default;
+$dm-text-color:            #cdd6f4 !default;
+$dm-background-color:      #1e1e2e !default;
+$dm-code-background-color: #313244 !default;
+$dm-link-base-color:       #89b4fa !default;
+$dm-link-visited-color:    #89b4fa !default;
+$dm-link-hover-color:      #cdd6f4 !default;
+$dm-border-color-01:       #eba0ac !default;
+$dm-border-color-02:       #f5c2e7 !default;
+$dm-border-color-03:       #f38ba8 !default;
+$dm-table-text-color:      #cdd6f4 !default;
+$dm-table-zebra-color:     #313244 !default;
+$dm-table-header-bg-color: #45475a !default;
+$dm-table-header-border:   #6c7086 !default;
+$dm-table-border-color:    #eba0ac !default;
+
+
 .post-title, // who's idea was it to display the header twice??
 .page-heading, // same as above, on the path `/`
 .page-link // no thanks that looks ugly as shit
