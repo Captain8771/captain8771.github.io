@@ -1,7 +1,7 @@
 ---
 ---
 @import
-  "custom-variables",
+  "./ihatescss",
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
 
