@@ -6,30 +6,6 @@
   "minima/initialize";
 
 
-:root {
-    // catppuccin mode
-    // made by my friend
-    // ---------
-    $dm-brand-color:           #f38ba8 !important;
-    $dm-brand-color-light:     #f5c2e7 !important;
-    $dm-brand-color-dark:      #eba0ac !important;
-    $dm-site-title-color:      #f5c2e7 !important;
-    $dm-text-color:            #cdd6f4 !important;
-    $dm-background-color:      #1e1e2e !important;
-    $dm-code-background-color: #313244 !important;
-    $dm-link-base-color:       #89b4fa !important;
-    $dm-link-visited-color:    #89b4fa !important;
-    $dm-link-hover-color:      #cdd6f4 !important;
-    $dm-border-color-01:       #eba0ac !important;
-    $dm-border-color-02:       #f5c2e7 !important;
-    $dm-border-color-03:       #f38ba8 !important;
-    $dm-table-text-color:      #cdd6f4 !important;
-    $dm-table-zebra-color:     #313244 !important;
-    $dm-table-header-bg-color: #45475a !important;
-    $dm-table-header-border:   #6c7086 !important;
-    $dm-table-border-color:    #eba0ac !important;
-}
-
 .post-title, // who's idea was it to display the header twice??
 .page-heading, // same as above, on the path `/`
 .page-link // no thanks that looks ugly as shit
