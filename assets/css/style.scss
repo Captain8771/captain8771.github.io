@@ -2,8 +2,8 @@
 ---
 
 @import
-  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
-  "minima/initialize";
+    "minima/initialize",
+    "minima/skins/{{ site.minima.skin | default: 'classic' }}";
 
 
 .post-title, // who's idea was it to display the header twice??
