@@ -50,10 +50,26 @@ This is how you get the link to the actual image (the link you *need* to use for
 
 And now you can use that in your rich presence!
 
+### How do timestamps work?
+
+---
+
+Timestamps use a Unix Timestamp to track time. You can get the current one, and/or generate one for a given date on [unixtimestamp.com](https://www.unixtimestamp.com/)
+
+*[Unix Timestamp]: The unix time stamp is a way to track time as a running total of seconds. This count starts at the Unix Epoch on January 1st, 1970 at UTC. Therefore, the unix time stamp is merely the number of seconds between a particular date and the Unix Epoch.
+
+### My rich presence isn't showing up!
+
+---
+
+Try reloading. If that doesn't work, see [My question wasn't answered here](#my-question-wasnt-answered-here).
+
 ### My question wasn't answered here!
 
 ---
 
 Send a message in the vencord #support channel asking the question, and (optionally) ping me (Captain#3175) and I'll add the answer.
+
+Do NOT leave a comment on this page asking for support. That isn't what the comments are there for.
 
 Have a nice day!

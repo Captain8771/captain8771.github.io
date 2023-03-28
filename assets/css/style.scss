@@ -27,9 +27,8 @@ $dm-table-border-color:    #eba0ac !default;
     "minima/initialize";
 
 
-.post-title, // who's idea was it to display the header twice??
-.page-heading, // same as above, on the path `/`
-.page-link // no thanks that looks ugly as shit
+.post-title // who's idea was it to display the header twice??
+,.page-heading // same as above, on the path `/`
 {
     display: none !important; // hippity hoppity shut the fuck uppity
 }

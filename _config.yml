@@ -7,3 +7,8 @@ author:
   name: Captain
   email: "captain8771pog+gh@gmail.com"
 
+disqus:
+  shortname: captain8771
+
+header_pages:
+  - info/about.md
