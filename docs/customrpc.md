@@ -1,3 +1,6 @@
+---
+comments: true
+---
 ## CustomRPC in Vencord: How to use it.
 
 ### What is CustomRPC?
