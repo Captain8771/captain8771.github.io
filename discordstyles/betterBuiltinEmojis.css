@@ -1,0 +1,54 @@
+/* troll = trollface */
+[src^="/assets/20e874870eab5f5c6f8ad7c51146d868.svg"] {
+  content: url("https://cdn.discordapp.com/emojis/690075870995808326.png?size=128");
+}
+[style*="background-position: -680px -120px;"][style*='background-image: url("/assets/d218674f309bcbfbf56faf6074df6347.png");'] {
+  background-image: url("https://cdn.discordapp.com/emojis/690075870995808326.png?size=128") !important;
+  background-size: contain !important;
+  background-position: center !important;
+  background-repeat: no-repeat;
+}
+
+/* hold back tears = old hold back tears */
+[src^="/assets/571a9318fd6af1875977d03256f23214.svg"] {
+  content: url("https://vendicated.github.io/random-files/face_holding_back_tears.svg");
+}
+[style*="background-position: -200px 0px;"][style*='background-image: url("/assets/d218674f309bcbfbf56faf6074df6347.png");'] {
+  background-image: url("https://vendicated.github.io/random-files/face_holding_back_tears.svg") !important;
+  background-size: contain !important;
+  background-position: center !important;
+  background-repeat: no-repeat;
+}
+
+/* pleading = old pleading */
+[src^="/assets/e63c47fd56c7ed1e4552974baaef4b4e.svg"] {
+  content: url("https://vendicated.github.io/random-files/pleading_face.svg");
+}
+[style*="background-position: -200px -40px;"][style*='background-image: url("/assets/d218674f309bcbfbf56faf6074df6347.png");'] {
+  background-image: url("https://vendicated.github.io/random-files/pleading_face.svg") !important;
+  background-size: contain !important;
+  background-position: center !important;
+  background-repeat: no-repeat;
+}
+
+/* watergun = glock */
+[src^="/assets/fd0dd759c1ed1e0a044fa6882e95fd02.svg"] {
+  content: url("https://cdn.discordapp.com/emojis/808512495794520114.webp?size=1024&quality=lossless");
+}
+[style*="background-position: -280px -800px;"][style*='background-image: url("/assets/d218674f309bcbfbf56faf6074df6347.png");'] {
+  background-image: url("https://cdn.discordapp.com/emojis/808512495794520114.webp?size=1024&quality=lossless") !important;
+  background-size: contain !important;
+  background-position: center !important;
+  background-repeat: no-repeat;
+}
+
+/* skull = sans */
+[src^="/assets/f64f47a895e537305b3463f9d30bc177.svg"] {
+  content: url("https://cdn.discordapp.com/emojis/981912369624154112.webp?size=1024&quality=lossless");
+}
+[style*='background-position: -1000px -80px;'][style*='background-image: url("/assets/d218674f309bcbfbf56faf6074df6347.png");'] {
+  background-image: url("https://cdn.discordapp.com/emojis/981912369624154112.webp?size=1024&quality=lossless") !important;
+  background-size: contain !important;
+  background-position: center !important;
+  background-repeat: no-repeat;
+}
