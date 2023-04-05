@@ -113,6 +113,19 @@
     }
 }
 
+/* if the device is a mobile phone, or if the screen is less than 1200px wide */
+@media screen and (max-width: 1200px) {
+    .env, .ihatecss, .text {
+        display: none;
+    }
+    .fountain1, .fountain2, .fountain3, .filt, .bg, .inverted, .fountainContainer {
+        height: 100% !important;
+    }
+    body {
+        overflow: hidden;
+    }
+}
+
 .fountain2 {
     animation: 
         scroll 5s infinite linear, 
