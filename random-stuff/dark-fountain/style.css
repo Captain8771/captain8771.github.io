@@ -14,6 +14,16 @@
     background-size: 400px 700px;
 }
 
+.text {
+    position: absolute;
+    z-index: 100;
+    /* move it closer to the center */
+    transform: translate(-50%, -50%);
+    top: 25%;
+    left: 50%;
+    image-rendering: pixelated;
+}
+
 .env {
     position: absolute;
     top: 0;
@@ -89,6 +99,20 @@
     }
 }
 
+@keyframes scrollC {
+    /* move background vertically and horizontally */
+    0% {
+        background-position: 0 0;
+        mask-position: center 0;
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        background-position: -400px -400px;
+        mask-position: center 700px;
+        filter: hue-rotate(360deg);
+    }
+}
+
 .fountain2 {
     animation: 
         scroll 5s infinite linear, 
@@ -154,6 +178,12 @@
     height: 700px;
     animation: scroll 5s infinite linear, scrollB 5s infinite linear;
     z-index: -50;
+}
+
+.inverted {
+    animation: scrollC 5s infinite linear reverse;
+    opacity: 0.5;
+    z-index: -49;
 }
 
 .fountainContainer {
