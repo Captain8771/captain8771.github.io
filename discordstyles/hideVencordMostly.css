@@ -39,8 +39,23 @@
 /* Membercount */,#vc-membercount
 /* PinDMs */,ul[aria-label="Direct Messages"] > :nth-child(5)
 /* Donator Badges; courtesey of the sun */,[class*="profileBadges-"] > :not([target])
+/* Show Me Your Name suffix,*/ /*.vc-smyn-suffix  */ /* disabled because bleh why is it nickname in suffix*/
+/* TypingIndicator */,.content-1gYQeQ > div > [class^="dots-"]
+/* TypingTweaks */,.text-3S7XCz > strong > div
+/* settings cog context menu */ ,[id^="user-settings-cog-Vencord"]
+/* voice channel shower thing */ ,.section-28YDOf:has(.vc-uvs-header)
+/* vc connected time */ ,.channel-3prF2u > p
 {
     display: none !important;
+}
+
+.text-3S7XCz > strong {
+    color: #FFFFFF !important;
+}
+
+.username-vAneIW
+,.username-3_PJ5r:has(span) {
+    color: var(--channels-default) !important;
 }
 
 /* Add a fake "Direct Messages" section, because reordering the pinned DMs is horror */
