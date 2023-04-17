@@ -38,6 +38,7 @@
 /* PronounDB */,[aria-labelledby*="message-timestamp-"]:not(.message-2CShn3) > :nth-child(4)
 /* Membercount */,#vc-membercount
 /* PinDMs */,ul[aria-label="Direct Messages"] > :nth-child(5)
+/* Donator Badges; courtesey of the sun */,[class*="profileBadges-"] > :not([target])
 {
     display: none !important;
 }
@@ -71,3 +72,4 @@ ul[aria-label="Direct Messages"] > :nth-child(4):after {
     display: initial;
     content: "BOT";
 }
+
