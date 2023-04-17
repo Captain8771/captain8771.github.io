@@ -1,0 +1,73 @@
+/* CamouExperiments.css v1.0.2
+ Camouflage the Vencord Experiments plugin (`isStaff`) icon 
+ with the icon that’s regularly at that position (circled question mark).
+ (stolen from #css-snippets in vencord)
+ “homepage”: https://discord .com/channels/1015060230222131221/1028106818368589824/1074190342607351879
+ */
+[class|=recentsIcon] + div path {
+    d: path('M12 2C6.486 2 2 6.487 2 12C2 17.515 6.486 22 12 22C17.514 22 22 17.515 22 12C22 6.487 17.514 2 12 2ZM12 18.25C11.31 18.25 10.75 17.691 10.75 17C10.75 16.31 11.31 15.75 12 15.75C12.69 15.75 13.25 16.31 13.25 17C13.25 17.691 12.69 18.25 12 18.25ZM13 13.875V15H11V12H12C13.104 12 14 11.103 14 10C14 8.896 13.104 8 12 8C10.896 8 10 8.896 10 10H8C8 7.795 9.795 6 12 6C14.205 6 16 7.795 16 10C16 11.861 14.723 13.429 13 13.875Z');
+}
+
+
+
+/* Vencord Notifications */#vc-notification-container
+/* SilentTyping */,[aria-label="Disable Silent Typing"]
+/* SilentMessageToggle */,[aria-label="Enable Silent Message"]
+/* InvisibleChat */,[aria-label="Encrypt Message"]
+/* PlatformIndicators */,.vc-platform-indicator 
+/* MoreUserTags */,[class*="botTag-"]:not([data-tag*="webhook"]):not([data-tag*="bot"])
+/* Oneko */,#oneko
+/* GameActivityToggle */,[aria-label="Disable Game Activity"]
+/* SpotifyControls */,#vc-spotify-player,
+/* BetterFolders */.vc-bf-folder-sidebar
+/* Contributor badge */,[aria-label="Vencord Contributor"]
+/* ReviewDB */,.ReviewDB
+/* QuickMention */,[aria-label="Quick Mention"]
+/* ViewRaw */,[aria-label="View Raw (Left Click) / Copy Raw (Right Click)"]
+/* HideAttachments */,[aria-label="Hide Attachments"]
+/* Vencord category */,.side-1lrxIh > :nth-child(1)
+/* Vencord */,.side-1lrxIh > :nth-child(2)
+/* Plugins */,.side-1lrxIh > :nth-child(3)
+/* Themes */,.side-1lrxIh > :nth-child(4)
+/* Updater */,.side-1lrxIh > :nth-child(5)
+/* Cloud */,.side-1lrxIh > :nth-child(6)
+/* Backup & Restore */,.side-1lrxIh > :nth-child(7)
+/* Stinky divider :> */,.side-1lrxIh > :nth-child(8)
+/* OpenAsar */,.side-1lrxIh > :nth-child(36)
+/* ServerListIndicators */,#vc-guildcount
+/* PronounDB */,[aria-labelledby*="message-timestamp-"]:not(.message-2CShn3) > :nth-child(4)
+/* Membercount */,#vc-membercount
+/* PinDMs */,ul[aria-label="Direct Messages"] > :nth-child(5)
+{
+    display: none !important;
+}
+
+/* Add a fake "Direct Messages" section, because reordering the pinned DMs is horror */
+ul[aria-label="Direct Messages"] > :nth-child(4):after {
+    content: "DIRECT MESSAGES";
+    color: var(--channels-default);
+    font-family: var(--font-display);
+    font-weight: 600;
+    height: 40px;
+    letter-spacing: .02em;
+    padding: 7.5px 7.5px 15px 10px;
+    font-size: 12px;
+    line-height: 16px;
+}
+/* Hide all of the "Direct Messages" category thingy instances */
+[class*="privateChannelsHeaderContainer-"] {
+    display: none;
+}
+
+/* MoreUserTags on bot tags */
+[data-tag*="webhook"] > [class^="botText-"],
+[data-tag*="•"] > [class^="botText-"] {
+    display: none;
+}
+
+
+[data-tag*="webhook"]:after,
+[data-tag*="•"]:after {
+    display: initial;
+    content: "BOT";
+}
