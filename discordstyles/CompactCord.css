@@ -1,128 +1,90 @@
+/* #region compactcord */
+
 @media (max-width: 800px) {
-    .sidebar-1tnWFu
+    [class*="sidebar_"]
     ,nav:has([data-list-id="guildsnav"])
-    ,.container-2o3qEW
-    ,.toolbar-3_r2xA
-    ,.topic-11NuQZ
-    ,.divider-q3P9HC
-    ,.iconWrapper-2awDjA
-    ,.newMessagesBar-1hF-9G
+    ,[class^="members"]
+    ,[class^="toolbar__"]
+    ,[class^="topic_"]
+    ,[class^="divider_"]
+    ,[class^="newMessagesBar_"]
     ,.expression-picker-chat-input-button
     ,#vc-notification-container
-    ,.pictureInPicture-1GQX91
-    ,.buttons-uaqb-5 > :first-child
-    ,.form-3gdLxP:before
-    ,.buttons-uaqb-5
-    ,.placeholder-1rCBhr
+    ,[class^="pictureInPicture_"]
+    ,[class^="buttons_"] > :first-child
+    ,[class^="buttons_"]
+    ,[class^="placeholder_"]
     ,#oneko /* I'm sorry, little one. */
-    ,.timestampInline-_lS3aK:has(time)
+    ,[class*="timestampInline_"]:has(time)
     ,.vc-platform-indicator
-    ,[aria-label="Add Reaction"]
-    ,[aria-label="Add Super Reaction"]
-    ,[aria-label="Create Thread"]
-    ,#message-actions-add-reaction-1
-    ,[role="menuitem"] > .label-3CEiKJ
-    ,.wrapper--nA0oy
-    ,.nav-1cHpYc > .navList-3uG4ub
-    ,[role="button"]:has(.replyLabel-WWnhHi)
+    ,[role="button"]:has([class^="replyLabel_"])
     {
         display: none !important;
     }
 
-    .actions-1mkm4H {
+    [class^="actions_"] {
         display: flex;
         justify-content: space-between;
     }
 
-    .contentWrapper-2f9yME:has(#emoji-picker-tab-panel) {
-        max-width: 95vw;
-        left: 0 !important;
-        top: 48px;
-        position: absolute;
-    }
-
-    .positionLayer-1cndvf {
-        width: 95vw;
-        max-width: 95vw;
-        height: 25vh;
-        max-height: 25vh;
-        position: absolute;
-        margin: 0;
-        top: 0;
-        left: 5vw;
-    }
-
-    .menu-2TXYjN {
-        max-width: 65px;
-        min-width: 65px;
-    }
-
-
-    .typingDots-1Y8dki > span {
+    [class^="typingDots_"] > span {
         visibility: hidden;
     }
 
-    .typingDots-1Y8dki > span > strong:first-of-type {
+    [class^="typingDots_"] > span > strong:first-of-type {
         visibility: visible;
     }
 
-    .slateTextArea-27tjG0 > :first-child {
+    [class*="slateTextArea_"] > :first-child {
         width: 30vw;;
     }
 
-    .typing-2J1mQU {
+    [class^="typing_"] {
         background-color: var(--background-primary);
         border: 1px solid var(--background-secondary);
     }
 
-    .title-17SveM:before {
-        content: "#";
-    }
-
-    .titleWrapper-24Kyzc {
+    [class^="upperContainer__"] > [class^="children__"]:has([class^="iconWrapper_"], [class^="titleWrapper_"]) {
         display: flex;
         justify-content: center;
         width: 100%;
     }
 
-    .titleWrapper-24Kyzc > :first-child {
+    [class^="upperContainer__"] > :first-child {
         border: 5px solid var(--background-secondary);
         border-radius: 15px;
         padding: 5px;
     }
 
-    .attachWrapper-3slhXI, .uploadInput-YH_iku {
+    [class^="attachWrapper_"], [class^="uploadInput_"] {
         position: absolute;
         right: -15px;
         z-index: 1;
     }
 
-    .drawerSizingWrapper-1txdWG {
+    [class^="drawerSizingWrapper_"] {
         height: 300px;
         bottom: 15px;
         right: 15px;
     }
 
-    .layer-fP3xEz {
-        height: 50vh;
-        top: 20vh;
-    }
-
-    .form-3gdLxP > :first-child {
+    [class^="form_"] > :first-child {
         border: 5px solid var(--background-secondary);
     }
     
-    .form-3gdLxP {
+    [class^="form_"] {
         position: absolute;
         top: 3vh;
         width: 50vw;
-        right: 0;
+        right: 15px;
         z-index: 100; /* 
         why is THIS the lowest required value to be above
         the top bar?? */
     }
 
-    .form-3gdLxP:not(:focus-within) {
+    [class^="form_"]:not(:focus-within) {
         opacity: 0.5;
     }
 }
+
+/* #endregion compactcord */
