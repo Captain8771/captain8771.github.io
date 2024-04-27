@@ -6,6 +6,7 @@ Hi! I'm [Erik](https://en.pronouns.page/@Captain8771) (He/Him) and I code silly 
 
 | Name | Repo | Comment |
 | ---- | ---- | ------- |
-| Vencord | [vendicated/vencord](https://github.com/vendicated/vencord) | Made a plugin (CustomRPC. See: [The doc I made about CustomRPC](/docs/customrpc.md))
-| AOUutils | [Captains-Ship/AOUutils](https://github.com/captains-ship/aouutils) | I am the original creator of AOUutils |
-| \*checks commit history\* | OH COME ON IS THAT EVERYTHING?!?! | damn it's sad my only public experience is a discord client mod and a dead discord bot
+| Vencord | [vendicated/vencord](https://github.com/vendicated/vencord) | Made a plugin (CustomRPC) |
+| AOUutils | [Captains-Ship/AOUutils](https://github.com/captains-ship/aouutils) | This repo is the old codebase. |
+| Cap's Random Stuff | [Captain8771/random-mod](https://github.com/Captain8771/random-mod) | This is my minecraft mod, adding some minor nice things. |
+| Random HTML stuff | [On this site](https://captain8771.github.io/random-stuff) | I make these mostly for fun
