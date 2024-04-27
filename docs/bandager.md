@@ -1,6 +1,11 @@
 ---
 comments: true
 ---
+# Bandager is cancelled until further notice.
+
+<details>
+    <summary>original site here</summary>
+
 # Bandager
 ## What the hell is a bandager???
 [Bandager](https://github.com/captain8771/bandager) is a new service similar to usrbg, where you can get your own banner, animated avatar, and even badge, for free, AND visible to other bandager users!
@@ -17,3 +22,6 @@ There is no eta, but there are a few (non-exhaustive) criteria I would like to m
 
 ## How can I help?
 Join the discord, and ping me (@Captain#3175).
+
+
+</details>
